@@ -20,8 +20,6 @@ A powerful personal assistant agent built with Claude's Agent SDK that helps you
 ## Prerequisites
 
 - Python 3.10 or higher
-- Node.js (required by Claude Agent SDK)
-- Claude Code CLI installed: `npm install -g @anthropic-ai/claude-code`
 - Anthropic API key
 - Google Cloud project (for Gmail/Calendar access)
 - Slack workspace (for Slack integration)
@@ -257,7 +255,7 @@ self.system_prompt = """Your custom instructions here..."""
 
 - Make sure all dependencies are installed: `pip install -r requirements.txt`
 - Verify Python version: `python --version` (should be 3.10+)
-- Check that Claude Code is installed: `npm list -g @anthropic-ai/claude-code`
+- Ensure `claude-agent-sdk` is installed: `pip show claude-agent-sdk`
 
 ### Google API Issues
 
